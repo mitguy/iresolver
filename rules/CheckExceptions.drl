@@ -1,0 +1,31 @@
+package com.koval.resolver.rules
+
+import com.koval.resolver.common.api.model.issue.Issue;
+global java.util.List results
+
+
+rule "No exception in description"
+	when
+		$issue : Issue( !description.contains("Exception") )
+	then
+		results.add("No exception found in description");
+end
+
+
+rule "Exception found in description"
+	when
+		$issue : Issue( description.contains("Exception") )
+	then
+		java.util.regex.Matcher m = java.util.regex.Pattern
+				.compile("[A-Za-z0-9_.$]+Exception")
+				.matcher($issue.getDescription());
+		java.util.Set found = new java.util.LinkedHashSet();
+		while (m.find()) {
+			found.add(m.group());
+		}
+		if (found.isEmpty()) {
+			results.add("Exception is mentioned in description, but its class name was not recognized");
+		} else {
+			results.add("Exception found in description: " + found);
+		}
+end

@@ -1,0 +1,427 @@
+KAFKA-15495 : Partition truncated when the only ISR member restarts with an empty disk
+
+similar issues: 
+KAFKA-16157 - 73.5140323638916
+KAFKA-5091 - 69.73065137863159
+KAFKA-8442 - 66.30694270133972
+KAFKA-2471 - 65.79387784004211
+KAFKA-1665 - 64.87770676612854
+KAFKA-1313 - 62.975168228149414
+KAFKA-1562 - 61.951375007629395
+KAFKA-4368 - 61.622029542922974
+KAFKA-5310 - 61.55514717102051
+KAFKA-10061 - 61.477696895599365
+
+users: 
+Jonathan Natkins - <unknown> - 5
+ASF GitHub Bot - <unknown> - 5
+Gaurav Narula - <unknown> - 3
+Jun Rao - <unknown> - 3
+Manikumar - <unknown> - 3
+Neha Narkhede - <unknown> - 3
+Mickael Maison - <unknown> - 3
+huxihx - null - 2
+huxihx - <unknown> - 2
+Guozhang Wang - <unknown> - 2
+Onur Karaman - null - 1
+Jonathan Natkins - null - 1
+Joe Stein - <unknown> - 1
+Ewen Cheslack-Postava - <unknown> - 1
+Alexis Lesieur - <unknown> - 1
+Jason Gustafson - null - 1
+Steven Schlansker - <unknown> - 1
+Umesh Chaudhary - <unknown> - 1
+Jay Kreps - <unknown> - 1
+Adebiy Abdurrahman - <unknown> - 1
+Gaurav Narula - null - 1
+yunfan - <unknown> - 1
+Jason Gustafson - <unknown> - 1
+Anukool Rattana - <unknown> - 1
+Ashish Singh - <unknown> - 1
+Bingkun Guo - <unknown> - 1
+Geoff Anderson - <unknown> - 1
+
+labels: 
+newbie++ - 1
+
+attachments: 
+.log - 1 - Log - false
+.1 - 1 - Unknown - false
+.2 - 1 - Unknown - false
+.3 - 1 - Unknown - false
+.4 - 1 - Unknown - false
+.5 - 1 - Unknown - false
+.6 - 1 - Unknown - false
+.7 - 1 - Unknown - false
+.8 - 1 - Unknown - false
+.9 - 1 - Unknown - false
+.10 - 1 - Unknown - false
+.patch - 4 - Unknown - false
+
+proposals: 
+No exception found in description
+Developer is probably working on the problem
+Request affectedVersions field from TSE
+
+
+KAFKA-13695 : Low-traffic topics don't roll (and therefore compact) nor delete tombstones
+
+similar issues: 
+KAFKA-16663 - 74.08816814422607
+KAFKA-21098 - 73.07840585708618
+KAFKA-20977 - 72.26486802101135
+KAFKA-17190 - 72.09252715110779
+KAFKA-14168 - 71.67049646377563
+KAFKA-20449 - 71.5528130531311
+KAFKA-13917 - 70.99862694740295
+KAFKA-10413 - 70.41646838188171
+KAFKA-1350 - 69.93702054023743
+KAFKA-7981 - 69.9097216129303
+
+users: 
+yazgoo - <unknown> - 7
+Neha Narkhede - <unknown> - 5
+rameshkrishnan muthusamy - <unknown> - 3
+Guozhang Wang - <unknown> - 3
+Viktor Somogyi-Vass - null - 2
+Sagar Rao - <unknown> - 2
+Greg Harris - <unknown> - 2
+Timothy Chen - <unknown> - 2
+ASF GitHub Bot - <unknown> - 2
+Joel Jacob Koshy - <unknown> - 2
+Avishek Das - null - 2
+Florian Rossier - <unknown> - 2
+MillieZhang - <unknown> - 1
+Tamas Kornai - null - 1
+Jeff Kim - null - 1
+stuxnet - <unknown> - 1
+Colin McCabe - null - 1
+zhangdong7 - <unknown> - 1
+Chris Lee - <unknown> - 1
+BDeus - <unknown> - 1
+Neha Narkhede - null - 1
+Divij Vaidya - <unknown> - 1
+rameshkrishnan muthusamy - null - 1
+Konstantine Karantasis - <unknown> - 1
+Preston Price - <unknown> - 1
+
+labels: 
+kip - 1
+tiered-storage - 2
+
+attachments: 
+.sh - 1 - Unknown - false
+.png - 5 - Picture - false
+.patch - 2 - Unknown - false
+
+proposals: 
+Should assign on the qualified engineer
+No exception found in description
+Developer is probably working on the problem
+Request affectedVersions field from TSE
+
+
+KAFKA-13358 : Not able to replicate groups in MirrorMaker 2.0 
+
+similar issues: 
+KAFKA-12254 - 51.83711051940918
+KAFKA-16222 - 48.33108186721802
+KAFKA-8276 - 47.511446475982666
+KAFKA-13795 - 47.42482900619507
+KAFKA-3586 - 47.291016578674316
+KAFKA-20519 - 46.66867554187775
+KAFKA-2244 - 46.19174897670746
+KAFKA-20125 - 45.96235156059265
+KAFKA-6707 - 45.949506759643555
+KAFKA-4231 - 45.42371332645416
+
+users: 
+ASF GitHub Bot - <unknown> - 4
+Pranav Maniar - <unknown> - 2
+Jing Hung - null - 1
+Rajini Sivaram - <unknown> - 1
+Manikumar - <unknown> - 1
+Grant Henke - null - 1
+PoAn Yang - null - 1
+JieFang.He - null - 1
+Ismael Juma - <unknown> - 1
+Karthik Murugesan - <unknown> - 1
+Dhruvil Shah - null - 1
+PoAn Yang - <unknown> - 1
+Rajini Sivaram - null - 1
+Magesh kumar Nandakumar - <unknown> - 1
+Chia-Ping Tsai - <unknown> - 1
+
+labels: 
+newbie - 1
+
+attachments: 
+
+proposals: 
+Should assign on the qualified engineer
+Request attachments from TSE
+No exception found in description
+Developer is probably working on the problem
+Request components field from TSE
+Request affectedVersions field from TSE
+
+
+KAFKA-10336 : Rolling upgrade with Suppression may throw exceptions
+
+similar issues: 
+KAFKA-12457 - 69.12732124328613
+KAFKA-12648 - 68.25857162475586
+KAFKA-9657 - 68.16554069519043
+KAFKA-13216 - 66.69033169746399
+KAFKA-9776 - 66.59801006317139
+KAFKA-16624 - 66.37909412384033
+KAFKA-16757 - 66.10336303710938
+KAFKA-19829 - 66.03884696960449
+KAFKA-12574 - 66.02766513824463
+KAFKA-2397 - 66.00131392478943
+
+users: 
+Guozhang Wang - <unknown> - 11
+Jason Gustafson - <unknown> - 8
+A. Sophie Blee-Goldman - <unknown> - 8
+Ismael Juma - <unknown> - 6
+ASF GitHub Bot - <unknown> - 6
+Jay Kreps - <unknown> - 6
+Onur Karaman - <unknown> - 6
+Jiangjie Qin - <unknown> - 4
+Ewen Cheslack-Postava - <unknown> - 3
+Matthias J. Sax - <unknown> - 3
+Justine Olshan - <unknown> - 3
+A. Sophie Blee-Goldman - null - 2
+Boyang Chen - null - 2
+Colin McCabe - null - 2
+Haoran Xuan - <unknown> - 2
+Onur Karaman - null - 1
+travis - null - 1
+Guozhang Wang - null - 1
+Igor Soarez - <unknown> - 1
+Gwen Shapira - <unknown> - 1
+Justine Olshan - null - 1
+
+labels: 
+kip - 1
+kip-500 - 1
+
+attachments: 
+
+proposals: 
+No exception found in description
+Developer is probably working on the problem
+Request components field from TSE
+Request affectedVersions field from TSE
+Developer should set labels field
+
+
+KAFKA-9957 : Kafka Controller doesn't failover during hardware failure
+
+similar issues: 
+KAFKA-16063 - 66.50720834732056
+KAFKA-1103 - 66.27998352050781
+KAFKA-17891 - 66.26643538475037
+KAFKA-523 - 65.69265723228455
+KAFKA-7981 - 65.58588147163391
+KAFKA-20043 - 64.61541056632996
+KAFKA-14168 - 64.46305513381958
+KAFKA-19012 - 63.08293342590332
+KAFKA-563 - 62.98106908798218
+KAFKA-20529 - 62.960392236709595
+
+users: 
+ASF GitHub Bot - <unknown> - 12
+Jun Rao - <unknown> - 11
+Donny Nadolny - <unknown> - 8
+Guozhang Wang - <unknown> - 7
+Arpit Goyal - <unknown> - 6
+Kirk True - <unknown> - 4
+Chia-Ping Tsai - <unknown> - 4
+Divij Vaidya - <unknown> - 4
+Mickael Maison - <unknown> - 2
+Krzysztof Barczynski - <unknown> - 2
+Joel Jacob Koshy - <unknown> - 2
+David Arthur - <unknown> - 1
+David Arthur - <unknown> - 1
+Dave Crighton - <unknown> - 1
+Viktor Somogyi-Vass - null - 1
+Artem Livshits - <unknown> - 1
+Ranidu Nethma - <unknown> - 1
+Jiyoung Lee - <unknown> - 1
+Matthias J. Sax - <unknown> - 1
+Guozhang Wang - null - 1
+Jozef Koval - <unknown> - 1
+zhangzhisheng - <unknown> - 1
+zhangdong7 - <unknown> - 1
+Greg Harris - <unknown> - 1
+Lianet Magrans - <unknown> - 1
+Arpit Goyal - null - 1
+Donny Nadolny - null - 1
+Nat Wilson - <unknown> - 1
+Ismael Juma - <unknown> - 1
+PoAn Yang - <unknown> - 1
+
+labels: 
+bugs - 1
+kip - 1
+
+attachments: 
+.txt - 1 - Log - false
+.webm - 1 - Unknown - false
+.png - 6 - Picture - false
+.patch - 3 - Unknown - false
+
+proposals: 
+Request attachments from TSE
+Developer is probably working on the problem
+Exception found in description: [java.io.IOException]
+Request components field from TSE
+Request affectedVersions field from TSE
+
+
+KAFKA-9496 : Flaky Test SslAdminIntegrationTest#testSynchronousAuthorizerAclUpdatesBlockRequestThreads
+
+similar issues: 
+KAFKA-8022 - 67.15161204338074
+KAFKA-8123 - 65.34685492515564
+KAFKA-8092 - 65.26448726654053
+KAFKA-8086 - 65.1690661907196
+KAFKA-8075 - 64.89235162734985
+KAFKA-6232 - 64.12184834480286
+KAFKA-9188 - 60.222816467285156
+KAFKA-21017 - 57.59199857711792
+KAFKA-12456 - 51.696205139160156
+KAFKA-19352 - 50.81002712249756
+
+users: 
+Vahid Hashemian - <unknown> - 4
+ASF GitHub Bot - <unknown> - 4
+Matthias J. Sax - <unknown> - 3
+Jun Rao - <unknown> - 2
+Ted Yu - <unknown> - 2
+Bill Bejeck - <unknown> - 2
+Randall Hauch - <unknown> - 2
+Chia-Ping Tsai - <unknown> - 2
+dino2895 - null - 1
+Lianet Magrans - <unknown> - 1
+Jun Rao - null - 1
+Anna Povzner - null - 1
+Kuan Po Tseng - null - 1
+Ismael Juma - <unknown> - 1
+Chia-Ping Tsai - null - 1
+Rajini Sivaram - null - 1
+
+labels: 
+security - 1
+integration-test - 1
+client - 1
+flaky-test - 7
+
+attachments: 
+.out - 1 - Unknown - false
+
+proposals: 
+Should assign on the qualified engineer
+Request components field from TSE
+Exception found in description: [org.apache.kafka.common.errors.DisconnectException, org.apache.kafka.common.errors.UnknownTopicOrPartitionException, org.apache.kafka.common.errors.ClusterAuthorizationException]
+Developer is probably working on the problem
+Request affectedVersions field from TSE
+Developer should set labels field
+
+
+KAFKA-9495 : Flaky Test ReassignPartitionsClusterTest#shouldListReassignmentsTriggeredByZk
+
+similar issues: 
+KAFKA-9379 - 62.182992696762085
+KAFKA-9516 - 57.497745752334595
+KAFKA-9263 - 56.20485544204712
+KAFKA-8137 - 54.09705638885498
+KAFKA-8384 - 52.42561101913452
+KAFKA-10061 - 51.27033591270447
+KAFKA-8087 - 50.958251953125
+KAFKA-10371 - 50.45139789581299
+KAFKA-16455 - 50.42421817779541
+KAFKA-12329 - 50.40382742881775
+
+users: 
+ASF GitHub Bot - <unknown> - 4
+Bill Bejeck - <unknown> - 4
+Vahid Hashemian - <unknown> - 2
+Randall Hauch - <unknown> - 2
+Rajini Sivaram - null - 2
+Chia-Ping Tsai - <unknown> - 2
+David Jacot - null - 2
+Jason Gustafson - null - 1
+Chia-Ping Tsai - null - 1
+A. Sophie Blee-Goldman - <unknown> - 1
+Jose Armando Garcia Sancio - null - 1
+Kuan Po Tseng - null - 1
+
+labels: 
+flaky-test - 5
+
+attachments: 
+
+proposals: 
+Should assign on the qualified engineer
+Request components field from TSE
+Exception found in description: [java.lang.NullPointerException, org.apache.kafka.common.errors.UnknownTopicOrPartitionException]
+Developer is probably working on the problem
+Request affectedVersions field from TSE
+Developer should set labels field
+
+
+KAFKA-8677 : Flakey test GroupEndToEndAuthorizationTest#testNoDescribeProduceOrConsumeWithoutTopicDescribeAcl
+
+similar issues: 
+KAFKA-19481 - 65.96604585647583
+KAFKA-8456 - 64.30765390396118
+KAFKA-10321 - 64.02289867401123
+KAFKA-16323 - 63.84115219116211
+KAFKA-8193 - 63.134777545928955
+KAFKA-8672 - 63.101571798324585
+KAFKA-10754 - 62.233781814575195
+KAFKA-17617 - 62.18709349632263
+KAFKA-15206 - 61.83818578720093
+KAFKA-17269 - 61.635398864746094
+
+users: 
+Matthias J. Sax - <unknown> - 10
+Boyang Chen - <unknown> - 9
+Josep Prat - <unknown> - 4
+Chia-Ping Tsai - <unknown> - 3
+ASF GitHub Bot - <unknown> - 2
+Kamal Chandraprakash - null - 1
+Jun Rao - <unknown> - 1
+bboyleonp - <unknown> - 1
+bboyleonp - null - 1
+David Arthur - null - 1
+Lianet Magrans - <unknown> - 1
+David Arthur - <unknown> - 1
+Johnny Hsu - null - 1
+Jacob Montemayor - null - 1
+Luke Chen - null - 1
+Matthias J. Sax - null - 1
+Johnny Hsu - <unknown> - 1
+Guozhang Wang - null - 1
+A. Sophie Blee-Goldman - <unknown> - 1
+Gwen Shapira - <unknown> - 1
+Konstantine Karantasis - <unknown> - 1
+Konstantine Karantasis - null - 1
+
+labels: 
+test-failure - 1
+flaky-test - 3
+
+attachments: 
+
+proposals: 
+Request components field from TSE
+Developer is probably working on the problem
+Exception found in description: [org.scalatest.exceptions.TestFailedException]
+Request affectedVersions field from TSE
+Developer should set labels field
+
+
